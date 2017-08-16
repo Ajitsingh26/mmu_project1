@@ -16,7 +16,7 @@ elif (existing =="n" or existing=="N"):
         #concatination of salutation and name
         #check weather spy has input something or not
         if len(spy_name)>0:
-            #code block if the condition is true
+            #code block if the condition is true  
             spy_age=0
             spy_rating=0.0
             spy_is_online=False
