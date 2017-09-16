@@ -1,4 +1,10 @@
-spy_name="bond"
-spy_salutation="mr"
-spy_age="20"
-spy_rating="4.5"
+spy={
+
+
+'name': "bond",
+'salutation' : "mr",
+"age" : "20",
+"rating" : "4.5",
+'is_online' : True
+}
+
