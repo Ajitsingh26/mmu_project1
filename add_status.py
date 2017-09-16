@@ -1,7 +1,8 @@
-
+from globals import current_status_message
+from globals import STATUS_MESSAGES
 def add_status(current_status_message):
 
-    STATUS_MESSAGES = ['My name is Bond, James Bond', 'Shaken, not stirred.', 'Keeping the British end up, Sir']
+
     if current_status_message != None:
         print "Your current status message is " + current_status_message + "\n"
     else:
@@ -26,7 +27,15 @@ def add_status(current_status_message):
 
             if len(STATUS_MESSAGES) >= message_selection:
                 updated_status_message = STATUS_MESSAGES[message_selection - 1]
+                print 'Your updated status message is: %s' % (updated_status_message)
+            else:
+                print "Invalid choice. Try again."
+
+
+
 
         else:
             print 'The option you chose is not valid! Press either y or n.'
+
+        return updated_status_message
 
